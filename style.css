@@ -1,0 +1,37 @@
+*{
+  font-family: 'Coiny', cursive;
+}
+.jumbotron{
+  background-image: url('https://chopra.com/sites/default/files/field/image/6reasonswhytravelingisgoodforyou.jpg');
+    opacity: 0.8;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+.half1{
+ 
+  background-color: #E0F7FA;
+}
+.half2{
+   
+  background-color: #B2DFDB;
+}
+.thumbnail{
+ padding: 20px;
+text-align: center;
+}
+.move{
+  position: relative;
+ bottom: 300px;
+}
+.desc{
+  margin: 0 auto;
+  width: 50%;
+  bottom: 200px;
+ line-height: 2em;
+   border: 3px black groove;
+  font-size: 1.5em;
+}
+footer{
+  background-color: #90CAF9;
+}
+
