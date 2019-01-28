@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-  $('.menu').on('mouseover',(event)=>{
-    $(event.currentTarget).children().toggle();
+  $('.menu').on('click',(event)=>{
+    $(event.currentTarget).siblings().toggle();
   })
 })
