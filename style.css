@@ -1,6 +1,9 @@
 *{
   font-family: 'Coiny', cursive;
 }
+.hide{
+  display: none;
+}
 .jumbotron{
   background-image: url('https://chopra.com/sites/default/files/field/image/6reasonswhytravelingisgoodforyou.jpg');
     opacity: 0.8;
