@@ -1,6 +1,5 @@
 *{
 font-family: 'KoHo', sans-serif;
-
 }
 .hide{
   display: none;
@@ -40,10 +39,12 @@ text-align: center;
 }
 footer{
   background-color: rgb(38, 125, 156);
-  height:500px
+  min-height: 500px;
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/08/21/11/wood-1963988_960_720.jpg')
 }
+
 footer img{
-  opacity: 0.8
+  opacity: 0.8;
 }
 .navbar-brand img{
   width: 60px;
@@ -54,4 +55,27 @@ width: 100%;
 .high{
    height:518px;
 }
-
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+.form-row{
+  display: flex;
+  flex-direction: row;
+   padding: 1em;
+}
+.form-field{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+   padding: 1em;
+}
+label {
+  font-weight: bold;
+}
+.sign-up{
+  margin-bottom: 1em;
+}
