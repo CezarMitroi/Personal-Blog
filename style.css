@@ -14,6 +14,7 @@ font-family: 'KoHo', sans-serif;
     opacity: 0.8;
    background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0px!important;
 }
 .half1{
   background-color: rgb(182, 214, 239);
@@ -40,7 +41,7 @@ text-align: center;
 footer{
   background-color: rgb(38, 125, 156);
   min-height: 500px;
-  background-image: url('http://i64.tinypic.com/b7l8wx.jpg');
+  background-image: url('http://i64.tinypic.com/b7l8wx.jpg')
 }
 
 footer img{
@@ -72,6 +73,9 @@ form {
   flex-direction: column;
     align-items: center;
    padding: 1em;
+}
+.form-control{
+   background-color:rgb(127, 170, 211)!important;;
 }
 label {
   font-weight: bold;
