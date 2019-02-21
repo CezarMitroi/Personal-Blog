@@ -36,7 +36,8 @@ const app = new Vue({
     this.lastName = '',
     this.email = '',
     this.newsletterAccept = false,
-    this.gdprSigned = false
+    this.gdprSigned = false,
+    this.mentions = ''
   },
    addMention: function() {
    this.mentions.push(this.newMention);
