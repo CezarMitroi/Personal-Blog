@@ -6,18 +6,11 @@ const app = new Vue({
     lastName:'',
     email:'',
     newsletterAccept: false,
-    gdprSigned: false
+    gdprSigned: false,
+    mentions:[],
+    newMention:''
   },
-  methods: {
-  resetFields: function(){
-    this.firstName = '',
-    this.lastName = '',
-    this.email = '',
-    this.newsletterAccept = false,
-    this.gdprSigned = false
-  }
-},
-computed: {
+  computed: {
     formIsValid: function(){
       return this.firstName && this.lastName && this.gdprSigned && this.email;
     },
@@ -36,5 +29,18 @@ computed: {
           this.lastName = names[1];
         }
       }
-  }}
+  }},
+  methods: {
+  resetFields: function(){
+    this.firstName = '',
+    this.lastName = '',
+    this.email = '',
+    this.newsletterAccept = false,
+    this.gdprSigned = false
+  },
+   addMention: function() {
+   this.mentions.push(this.newMention);
+   this.newMention = '';
+}
+}
 });
