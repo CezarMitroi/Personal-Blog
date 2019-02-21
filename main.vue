@@ -44,7 +44,7 @@ const app = new Vue({
   },
    addMention: function() {
    this.mentions.push(this.newMention);
-   this.newMention = '';   
+   this.newMention = ''; 
 }
 }
 });
