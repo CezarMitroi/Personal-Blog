@@ -146,9 +146,7 @@
                           <li v-for='mention in mentions'>{{mention}}</li>
                         </ul>
                         <input type='text' v-model='newMention'>
-                        
-                        <button v-on:click.prevent='addMention' class='btn btn-info fa'>Add</button>
-                        
+                        <button v-bind:disabled='!mentionIsValid' v-on:click.prevent='addMention' class='btn btn-info fa'>Add</button>  
                       </div>
                     </div>
                      <div class='form-row'>
