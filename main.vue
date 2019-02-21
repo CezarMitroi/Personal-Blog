@@ -14,6 +14,9 @@ const app = new Vue({
     formIsValid: function(){
       return this.firstName && this.lastName && this.gdprSigned && this.email;
     },
+    mentionIsValid: function() {
+      return this.newMention;
+    },
     fullName:{
       get: function(){
       if (this.firstName && this.lastName){
@@ -37,11 +40,11 @@ const app = new Vue({
     this.email = '',
     this.newsletterAccept = false,
     this.gdprSigned = false,
-    this.mentions = ''
+    this.mentions = []
   },
    addMention: function() {
    this.mentions.push(this.newMention);
-   this.newMention = '';
+   this.newMention = '';   
 }
 }
 });
