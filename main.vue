@@ -1,4 +1,3 @@
-//VUE
 const app = new Vue({
   el: '#app',
   data:{
@@ -48,3 +47,7 @@ const app = new Vue({
 }
 }
 });
+   Vue.component('contact-source',{
+   props: 'contact-name',
+   template:'<p>asd</p>'
+ });
